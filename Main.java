@@ -137,7 +137,7 @@ class TextEditor extends JFrame implements ActionListener{
                         }
                     }
                 } catch (FileNotFoundException e1) {
-                    // TODO Auto-generated catch block
+                    
                     e1.printStackTrace();
                 }
                 finally {
@@ -161,7 +161,7 @@ class TextEditor extends JFrame implements ActionListener{
                     fileOut.println(textArea.getText());
                 }
                 catch (FileNotFoundException e1) {
-                    // TODO Auto-generated catch block
+                  
                     e1.printStackTrace();
                 }
                 finally {
